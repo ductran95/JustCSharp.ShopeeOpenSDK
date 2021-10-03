@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{35085455-B3A3-4063-9C6F-ECA2BDE51922}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{6F8569FE-5055-4987-A12A-A30900C5BCB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "solution-items", "solution-items", "{58C0544A-5C31-4ED6-BC6A-86EDCF242132}"
+ProjectSection(SolutionItems) = preProject
+	LICENSE = LICENSE
+	README.md = README.md
+EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustCSharp.ShopeeOpenSDK", "src\JustCSharp.ShopeeOpenSDK\JustCSharp.ShopeeOpenSDK.csproj", "{30FA2535-FB8D-4BC2-9AA7-9D7021E1CD25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JustCSharp.ShopeeOpenSDK.Test", "tests\JustCSharp.ShopeeOpenSDK.Test\JustCSharp.ShopeeOpenSDK.Test.csproj", "{0E1E5CA6-9259-4AA5-A6BB-315179B14587}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30FA2535-FB8D-4BC2-9AA7-9D7021E1CD25} = {35085455-B3A3-4063-9C6F-ECA2BDE51922}
+		{0E1E5CA6-9259-4AA5-A6BB-315179B14587} = {6F8569FE-5055-4987-A12A-A30900C5BCB9}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30FA2535-FB8D-4BC2-9AA7-9D7021E1CD25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30FA2535-FB8D-4BC2-9AA7-9D7021E1CD25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30FA2535-FB8D-4BC2-9AA7-9D7021E1CD25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30FA2535-FB8D-4BC2-9AA7-9D7021E1CD25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E1E5CA6-9259-4AA5-A6BB-315179B14587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E1E5CA6-9259-4AA5-A6BB-315179B14587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E1E5CA6-9259-4AA5-A6BB-315179B14587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E1E5CA6-9259-4AA5-A6BB-315179B14587}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
